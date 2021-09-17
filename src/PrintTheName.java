@@ -9,6 +9,10 @@ public class PrintTheName {
 		String name = in.nextLine();
 		//Displaying the name 
 		System.out.println("Your Name is: " + name);
+		
+		
+		//New Feature Added that prints the name in upper case
+		System.out.println("Name in uppercase: " + name.toUpperCase());
 
 	}
 
